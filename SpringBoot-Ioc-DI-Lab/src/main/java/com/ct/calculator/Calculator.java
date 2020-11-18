@@ -21,12 +21,12 @@ public class Calculator {
     @Autowired
     private Floor floor;
 
-    public String getTotalCarpetCost(City city) throws Exception{
+    public String getTotalCarpetCost(City city) throws Exception {
 
-        BigDecimal cost =carpet.getsqFtPrice(city).multiply(floor.getAea());
+        BigDecimal cost = carpet.getsqFtPrice(city).multiply(floor.getAea());
 
 
-        if(cost.compareTo(BigDecimal.ZERO)==0){
+        if (cost.compareTo(BigDecimal.ZERO) == 0) {
             throw new Exception("This city does not exist in a list");
         }
 

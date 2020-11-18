@@ -15,7 +15,6 @@ public class Livingroom implements Floor {
     BigDecimal length;
 
 
-
     @Override
     public BigDecimal getAea() {
         return width.multiply(length);
