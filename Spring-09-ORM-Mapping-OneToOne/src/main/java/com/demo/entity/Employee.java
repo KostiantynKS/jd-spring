@@ -1,4 +1,4 @@
-package com.demo.entiti;
+package com.demo.entity;
 
 
 import com.demo.enums.Gender;

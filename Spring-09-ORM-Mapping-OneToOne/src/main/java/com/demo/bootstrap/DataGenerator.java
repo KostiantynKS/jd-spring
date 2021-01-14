@@ -1,10 +1,9 @@
 package com.demo.bootstrap;
 
-import com.demo.entiti.Department;
-import com.demo.entiti.Employee;
-import com.demo.entiti.Region;
+import com.demo.entity.Department;
+import com.demo.entity.Employee;
+import com.demo.entity.Region;
 import com.demo.enums.Gender;
-import com.demo.repository.DepartmentRepository;
 import com.demo.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
